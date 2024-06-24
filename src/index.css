@@ -1,0 +1,13 @@
+.cards{
+    display: flex;
+}
+.cardsContainer{
+    margin: 5%;
+   
+}
+.card{
+    margin: 1%;
+}
+.btn btn-primary{
+    padding: 10px 30px;
+}
