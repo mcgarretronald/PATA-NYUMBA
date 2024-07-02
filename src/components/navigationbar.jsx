@@ -1,16 +1,16 @@
-import React from "react";
-import Modalbutton from "./modalbutton";
-
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Modalbutton from './modalbutton';
 
 const Navbar = () => {
   // logic
   return (
     <>
       <nav className="navbar bg-primary" data-bs-theme="dark">
-        <div className="container-fluid" >
-          <a className="navbar-brand">Pata Nyumba</a>
-          <Modalbutton/>
-         
+        <div className="container-fluid">
+        <Link to="/" className="nav-link"><a className="navbar-brand">Pata Nyumba</a></Link>
+          <Link to="/houses" className="nav-link" id='link'>Houses</Link>
+          <Modalbutton />
           <form className="d-flex" role="search">
             <input
               className="form-control me-2"
@@ -24,10 +24,8 @@ const Navbar = () => {
           </form>
         </div>
       </nav>
-        
-        
-    
     </>
   );
 };
+
 export default Navbar;

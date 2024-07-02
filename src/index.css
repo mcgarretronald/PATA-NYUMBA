@@ -11,3 +11,16 @@
 .btn btn-primary{
     padding: 10px 30px;
 }
+#heart-icon{
+margin: 8% 0% 0px 10%;
+    font-size: 20px;
+   
+}
+.likes{
+    display: inline-block;
+    color: grey;
+    padding: 5px;
+    font-size: 10pppx;
+  
+}
+  
